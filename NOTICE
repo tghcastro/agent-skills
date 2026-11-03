@@ -1,0 +1,14 @@
+agent-skills
+Copyright 2026 tghcastro
+
+This product is licensed under the Apache License, Version 2.0.
+
+Attributions:
+
+- skills/create-prd: the PRD template structure is adapted from the
+  "Best Practice PRD Framework: Think Different, Build Better" by Rohan Dehal
+  (Product Artistry, https://productartistry.com). The skill modifies the
+  original framework by adding Out of Scope and Open Questions sections,
+  replacing Technical Implementation Details with Non-Functional Requirements,
+  and making KPIs optional. No text or examples from the original framework are
+  reproduced.
