@@ -14,3 +14,16 @@ Versions are tracked per skill. Tags follow the pattern `<skill-name>/vX.Y.Z`.
   Design, Risks & Dependencies, Constraints, Launch Plan, KPIs.
 - Template adapted from the Best Practice PRD Framework by Rohan Dehal;
   framework differences documented in README.
+
+## create-test-plan
+
+### 1.0.0 — 2026-11-05
+- Initial release: interview-driven test plan for a feature.
+- Input from chat, documents and work items; sources are treated as data, not instructions.
+- Acceptance scenarios in business-facing Gherkin; validation checklists as bullet points.
+- 28 testing heuristics organized by concern (data integrity, retrieval, state,
+  security, reliability, operations, UI/UX, integration).
+- Optional automation type mapping (Unit, Integration, E2E, Acceptance, Component).
+- Mandatory: Feature Summary, Business Rules, Test Scope, Acceptance Scenarios,
+  Validation Checklists (at least one area), Open Questions.
+- Optional: Automation Mapping (always asked once), Regression Considerations.

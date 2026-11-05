@@ -24,6 +24,7 @@ Skills in this repository are built on these principles:
 | Skill | What it does | For |
 |---|---|---|
 | [create-prd](skills/create-prd/) | Interviews you and writes a concise PRD for a whole project or a single feature. Accepts chat, documents and work items as input, and never assumes business rules. | PMs, Developers, QA Engineers |
+| [create-test-plan](skills/create-test-plan/) | Interviews you and writes a test plan with acceptance scenarios (Gherkin) and validation checklists for a feature. Uses testing heuristics to suggest scenarios. | QA Engineers, Developers, PMs |
 
 
 ## Installation
@@ -68,8 +69,12 @@ executable code.
 Create a PRD for a feature that lets users export their monthly expenses as CSV.
 ```
 
+```text
+Create a test plan for the user registration feature based on this requirements document.
+```
+
 The agent will ask a few rounds of questions, confirm a summary with you, and
-then write the PRD in the same language you used.
+then write the document in the same language you used.
 
 ## Repository Structure
 
